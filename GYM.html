@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gym webpage</title>
+    <link rel="stylesheet" href="./GYM.css">
+
+</head>
+
+<body>
+    <div class="scrolltop" onclick="scrolltotop()"></div>
+    <!-- ............new header............. -->
+    <nav>
+        <div class="logo"><a href="#" class="logo"><img
+                    src="./gymimg/lovegym.jpg"
+                    alt="" /></a></div>
+        <div class="openMenu"><img src="./gymimg/hamberger.png" id="menuimg" class="hamb"></div>
+        <ul class="mainMenu">
+            <li class="navitem" onclick=close()><a href="#banner">Home</a></li>
+            <li class="navitem" onclick=closewin()><a href="#about">About</a></li>
+            <li class="navitem" onclick=closewin()><a href="#divisions">Divisions</a></li>
+            <li class="navitem" onclick=closewin()><a href="#expert">Experts</a></li>
+            <li class="navitem" onclick=closewin()><a href="#testimonials">Testinominals</a></li>
+            <li class="navitem" onclick=closewin()><a href="#contact">Contact</a></li>
+            <div class="closemenu"><img src="./gymimg/close.png" id="menuimg" class="close" onclick=close()></div>
+        </ul>
+    </nav>
+
+    <section class="banner" id="bannewinr">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat saepe sit harum explicabo qui
+                laborum dolore hic minima odit dignissimos amet cumque perspiciatis, assumenda dolorem totam beatae quas
+                nesciunt rerum natus facere porro.</p>
+            <a href="#divisions" class="btn">Our Courses</a>
+        </div>
+    </section>
+    <!-- ..................home page end here.......... -->
+    <section class="about" id="about">
+        <div class="col50">
+            <h2 class="titleText"><span>A</span>bout Us</h2>
+
+            <div class="row">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda quidem voluptatum,
+                    cupiditate neque fuga veniam possimus similique esse exercitationem officia. Nihil quaerat itaque
+                    aliquid voluptas ducimus? Pariatur hic non dolorum voluptates voluptate quam sit nam
+                    at,<br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione fugit ut quas in
+                    dolorum unde modi impedit placeat, dignissimos id dolore! Alias, dolor nihil? Et, reprehenderit aut
+                    cupiditate at accusamus atque perspiciatis, unde ea fugit totam ipsa? Tempora, nulla? architecto
+                    dignissimos maxime praesentium facilis, ab sequi tempora!</p>
+
+                <div class="imgBox" id="aboutimg">
+                    <img id="dumbelimg" src="./gymimg/dumbel.jpg">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ..................About page ends here........ -->
+
+    <section class="menu" id="divisions">
+        <div class="title">
+            <h2 class="titleText">Our<span>D</span>ivisions</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, fuga.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/cali2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Calasthanics</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/test6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Muscel Training</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/test5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Weight Training</h3>
+                </div>
+            </div>
+            
+
+        </div>
+<!-- ............extra divisions added here............ -->
+<div class="content" id="moredivisions">
+    <div class="box">
+        <div class="imagbx">
+            <img src="./gymimg/cali2.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Calasthanics</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imagbx">
+            <img src="./gymimg/test6.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Muscel Training</h3>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="imagbx">
+            <img src="./gymimg/test5.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Weight Training</h3>
+        </div>
+    </div>  
+</div>
+<div class="title">
+    <a  class="btn" id="viewAll" onclick=Moredivisions()>VIEW MORE</a>
+</div>
+</section>
+<!-- ............extra divisions ends here............ -->
+
+    <!-- ............our divisions ends here........... -->
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Our Fitness<span>E</span>xperts</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, fuga.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/tr4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/cali3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/tr2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/test1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- ............experts code end ............. -->
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero.</p>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/test3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo eligendi provident illo. Sed
+                        unde laudantium vel corporis,Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Distinctio, doloribus! quasi sint tempore architecto neque.
+                    <h3>Someone Special</h3>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/test2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo eligendi provident illo. Sed
+                        unde laudantium vel corporis,Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Distinctio, doloribus! quasi sint tempore architecto neque.
+                    <h3>Someone Special</h3>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imagbx">
+                    <img src="./gymimg/caly1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo eligendi provident illo. Sed
+                        unde laudantium vel corporis,Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Distinctio, doloribus! quasi sint tempore architecto neque.
+                    <h3>Someone Special</h3>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+
+
+        </div>
+        <!-- <div class="form"> -->
+        <div class="containerform">
+            <div class="contactform">
+                <h3>Send Message</h3>
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfLRNC4AcgzZcUFcb53s4QcnA7vS9h_gHlgacwsQ2ZbzFJvKA/formResponse"
+                    method="POST" name="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name" autocomplete="off" name="entry.1429622990"
+                            pattern="[A-Za-z].{2,}"
+                            title="Name should be in characcters only and greater than 2 characters" required />
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" placeholder="Email" autocomplete="off" name="entry.109340595"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+                    </div>
+                    <div class="inputBox">
+                        <textarea placeholder="Your Messege" autocomplete="off" name="entry.2084157166"
+                            required></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="topbtn">
+                <button type="button"><img src="./gymimg/top arrow 2.png" alt="" id="topimg"></button>
+            </div> -->
+        </div>
+
+    </section>
+    
+
+    <div class="copyrightText">
+        <p>Copyright 2020<a href="#"> The Gym Commpany</a>. All Rights Reserved</p>
+    </div>
+
+
+    <script>
+
+        // ................js for navbar starts here................
+
+        const mainMenu = document.querySelector('.mainMenu');
+        const closeMenu = document.querySelector('.close');
+        const openMenu = document.querySelector('.openMenu');
+        const navmenu = document.querySelector('.navitem')
+
+
+
+        openMenu.addEventListener('click', show);
+        closeMenu.addEventListener('click', close);
+        navmenu.addEventListener('click', close);
+
+
+        function show() {
+            mainMenu.style.display = 'flex';
+            mainMenu.style.top = '0';
+
+        }
+
+        function close() {
+            mainMenu.style.top = '-100%'
+            // window.location.reload();
+        }
+
+        function closewin() {
+            mainMenu.style.top = '-100%'
+
+        }
+
+        // function navitem() {
+        //     mainMenu.style.top = '-100%'
+        // }
+
+        // ................js for navbar ends here................
+
+        // ................js for scroll to top starts here................
+        
+        window.addEventListener('scroll',function(){
+            var scroll = document.querySelector('.scrolltop');
+            scroll.classList.toggle("active", window.scrollY > 800)
+        })
+        
+        function scrolltotop(){
+            window.scrollTo({
+                top:0,
+                behavior:'smooth'
+            })
+        }
+        
+        // ................js for scroll to top ends here................
+
+
+
+        // ................js for more divisions  ends here................
+
+        function Moredivisions(){
+            let div= document.getElementById("moredivisions");
+            let view = document.getElementById("viewAll");
+
+            if(div.style.display!='none'){
+                div.style.display='none'
+                view.textContent="VIEW MORE"
+            }
+            else{
+                div.style.display='flex'
+                view.textContent="VIEW LESS"
+            }
+        }
+
+
+        // ................js for more divisions  ends here................   
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- <?php include "CONFIG.PHP"?> -->
